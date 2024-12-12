@@ -4,7 +4,6 @@ $(window).scroll(function() {
   else
     $(`.btn-top`).fadeOut();
 });
-
 $(`.btn-top`).click(function() {
   $(`html,body`).animate({
     scrollTop: 0
