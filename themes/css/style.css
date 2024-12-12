@@ -1,0 +1,68 @@
+@font-face {
+    src: url(../fonts/Mikhak-DS2-Regular.woff2);
+    font-family: Mikhak;
+}
+
+@font-face {
+    src: url(../fonts/Mikhak-DS2-Bold.woff2);
+    font-family: Mikhak;
+    font-weight: bold;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 17px;
+}
+
+body {
+	font-family: Mikhak;
+	background-color: #f4f4f4;
+	color: #333;
+	height: 100vh;
+}
+
+header {
+	color: white;
+	text-align: center;
+}
+
+main {
+	padding: 20px;
+	padding-inline: 32px;
+	max-width: 900px;
+	margin: 0 auto;
+	background-color: white;
+	border-radius: 6px;
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+	margin-block: 2rem;
+}
+
+h1, h2 {
+	color: black !important;
+/*	margin-block-end: 0;*/
+}
+
+footer {
+	height: 80px;
+	color: white;
+	position: absolute;
+	bottom: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+a {
+	text-decoration: none;
+}
+
+p {
+	word-spacing: 2px;
+}
+
+#headers {
+	margin-block-end: 2rem;
+}
