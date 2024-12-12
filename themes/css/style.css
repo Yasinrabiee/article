@@ -82,7 +82,7 @@ p {
 	width: 100%;
 }
 
-.btn-top{
+.btn-top {
 	width: 40px;
 	height: 40px;
 	display: none;
@@ -96,7 +96,7 @@ p {
 	z-index: 1000;
 }
 
-.btn-top-parent{
+.btn-top-parent {
 	display: flex;
 	justify-content: center;
 	align-items: center;
